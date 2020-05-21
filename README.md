@@ -14,7 +14,7 @@ const Component = () => {
 }
 ```
 
-5. Use constants to avoid repetition.
+5. Use CONSTANTS to avoid repetition.
 
 6. Make sure such content-types exist in your Strapi application. Or replace/delete them in gatsby-config.js
 
