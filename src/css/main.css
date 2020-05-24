@@ -67,7 +67,7 @@ body {
   color: var(--clr-grey-1);
   line-height: 1.5;
   font-size: 0.875rem;
-  /* margin-top: 5rem; */
+  margin-top: 5rem;
 }
 ul {
   list-style-type: none;
@@ -143,6 +143,7 @@ p {
   cursor: pointer;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
   border-radius: var(--radius);
+  outline: none;
 }
 .btn:hover {
   color: var(--clr-primary-1);
@@ -570,6 +571,7 @@ Jobs
   cursor: pointer;
   padding: 0.25rem 0;
   line-height: 1;
+  outline: none;
 }
 .job-btn:hover {
   color: var(--clr-primary-5);
@@ -623,6 +625,7 @@ Jobs
   }
   .job-btn {
     margin-bottom: 1rem;
+    outline: none;
   }
   .active-btn {
     box-shadow: -2px 0 var(--clr-primary-5);
